@@ -1,19 +1,18 @@
 import logo from './utils/images/logo.svg';
 import './App.css';
-{/*import Nosotras from "./components/Somos.jsx"
-import Ayuda from "./components/Casas_de_ayuda.jsx"*/}
-
+{/*import {BrowserRouter as Router, Switch, Route } from 'react-router-dom' */}
+import Ayuda from "./components/Casas_de_ayuda.jsx"
+import Contact from "./components/Somos.jsx"
 function App() {
   return (
     <div className="App">
-    <h1>BIENVENIDOS </h1>
-    <div className="Ayuda">
-       <button> ¿Qué son las casas de ayuda?</button>
+    <Router> 
+    <Switch>
+    <Route path="/Nosotras" exact component={Nosotras} />
+     <Route path="/Ayuda" exact component={Ayuda} />
+    </Switch>
+    </Router>
     </div>
-    <div className="Ayuda">
-       <button> ¿Quiénes comos?</button>
-    </div>
-     </div>
   );
 }
 
