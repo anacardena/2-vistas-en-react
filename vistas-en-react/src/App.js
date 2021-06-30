@@ -2,12 +2,14 @@ import logo from './utils/images/logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom' 
 import Ayuda from "./components/Casas_de_ayuda.jsx"
+import  Inicio from "./components/Inicio.jsx"
 import Nosotras from "./components/Somos.jsx"
 function App() {
   return (
     <div className="App">
     <Router> 
     <Switch>
+    <Route path="/" exact component={Inicio} />
     <Route path="/Nosotras" exact component={Nosotras} />
      <Route path="/Ayuda" exact component={Ayuda} />
     </Switch>
