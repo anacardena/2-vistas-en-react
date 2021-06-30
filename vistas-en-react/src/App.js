@@ -1,8 +1,8 @@
 import logo from './utils/images/logo.svg';
 import './App.css';
-{/*import {BrowserRouter as Router, Switch, Route } from 'react-router-dom' */}
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom' 
 import Ayuda from "./components/Casas_de_ayuda.jsx"
-import Contact from "./components/Somos.jsx"
+import Nosotras from "./components/Somos.jsx"
 function App() {
   return (
     <div className="App">
