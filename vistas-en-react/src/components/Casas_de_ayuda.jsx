@@ -1,8 +1,6 @@
 import React from 'react'
 import '../utils/css/ayuda_estilos.css'
-import parrafo2  from '../utils/images/parrafo2.jpg'
-import parrafo3 from '../utils/images/parrafo3.jpg'
-import localidad from '../utils/images/localidad.png'
+
 
 function Casas_de_ayuda () {
     return (
@@ -11,7 +9,7 @@ function Casas_de_ayuda () {
 
        <div id="Contenido">
 
-      <div className="secciones">
+      <div className="parrafo1">
             <h2> ¿Qué son las casa de ayuda? </h2>
              <p> son espacios de encuentro entre mujeres para el conocimiento de sus derechos y el desarrollo de procesos orientados al empoderamiento social y político. Son el espacio privilegiado para que la  Política Pública de Mujeres y Equidad de Género  llegue con presencia, acompañamiento y servicios a las mujeres diversas que habitan el territorio rural y urbano de Bogotá.</p>
         </div>
@@ -37,9 +35,7 @@ function Casas_de_ayuda () {
                 <li>Centros de Inclusión Digital: Son espacios para reconocer las voces de las mujeres y promover el intercambio de saberes, a través del acceso y uso de tecnologías de información y comunicación (TIC), buscando así disminuir la brecha digital de género.</li>
              </ul>
         </div>
-         <img id="parrafo"  src={localidad} />
-       <img   src={parrafo2} />
-       <img  src={parrafo3} />
+        
 
        </div>
       

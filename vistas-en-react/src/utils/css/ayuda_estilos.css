@@ -1,0 +1,21 @@
+
+#Padre::-webkit-scrollbar{
+	width: 12px;
+	background:#efefef;
+
+}
+#Padre::-webkit-scrollbar-thumb{
+
+	background:pink;
+	border-radius: 15px;
+
+}
+
+#Padre{
+	color:white;
+	background: pink;
+}
+.parrafo1{
+	 
+	/* background-image:  url('./utils/images/localidad.png').default;*/
+}
