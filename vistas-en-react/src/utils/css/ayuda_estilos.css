@@ -1,4 +1,4 @@
-
+/*estilos para la barra de scroll;*/
 #Padre::-webkit-scrollbar{
 	width: 12px;
 	background:#efefef;
@@ -10,12 +10,87 @@
 	border-radius: 15px;
 
 }
-
+/* estilos para el conntenedor padre de toda la página*/
 #Padre{
 	color:white;
 	background: pink;
 }
-.parrafo1{
-	 
-	/* background-image:  url('./utils/images/localidad.png').default;*/
+/* estilos para el título*/
+#Titulo_principal {
+	background-size: cover;
+}
+/* estilos para los párrafos*/
+ .parrafo2, .parrafo3 {
+	width: 600px;
+	height: 450px;
+	padding:4%;
+	justify-content: center;
+	text-align: center;
+}
+.parrafo1 {
+	width: 500px;
+	height: 300px;
+	padding:4%;
+}
+#parrafo2, #parrafo3{
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#Contenido{
+margin: 5%;
+}
+/*Transisiones*/
+.slideRight{
+    animation-name: llegadaDerecha;
+    animation-duration: 5s;
+ }
+
+ .slideLeft{
+    animation-name: llegadaIzquierda;
+    animation-duration: 5s;
+ }
+
+
+/* animación llegada derecha*/
+
+@keyframes llegadaDerecha {
+    0%{
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+    60%{
+        opacity: 0.6;
+       transform:translateX(-80px);
+    }
+    80%{
+        opacity: 0.8;
+        transform:translateX(15px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0px);
+    }
+
+}
+
+/* animación llegada izquierda*/
+
+@keyframes llegadaIzquierda{
+    0%{
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+    60%{
+        opacity: 0.8;
+       transform:translateX(80px);
+    }
+    80%{
+        opacity: 0.9;
+        transform:translateX(-15px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0px);
+    }
+
 }
