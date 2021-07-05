@@ -12,18 +12,18 @@
 }
 /* estilos para el conntenedor padre de toda la página*/
 #Padre{
-	color:white;
-	background: pink;
+	color:#FAE4CD;
+	background: #FCF1E4;
 }
 /* estilos para el título*/
 #Titulo_principal {
-	background-size: cover;
+	background-size:cover;
+	background-repeat: no-repeat;
 }
 /* estilos para los párrafos*/
  .parrafo2, .parrafo3 {
 	width: 600px;
 	height: 450px;
-	padding:4%;
 	justify-content: center;
 	text-align: center;
 }
@@ -32,9 +32,13 @@
 	height: 300px;
 	padding:4%;
 }
+#parrafo2{
+	align-items :right;
+}
 #parrafo2, #parrafo3{
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	padding: 3%;
 }
 #Contenido{
 margin: 5%;
