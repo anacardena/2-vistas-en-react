@@ -17,8 +17,14 @@
 }
 /* estilos para el título*/
 #Titulo_principal {
-	background-size:cover;
+	display: flex;
+  width: 100%;
+  height: 55vh;
+ align-items: center;
+ justify-content: center;
 	background-repeat: no-repeat;
+	font-size:45px;
+	color: white;
 }
 /* estilos para los párrafos*/
  .parrafo2, .parrafo3 {
