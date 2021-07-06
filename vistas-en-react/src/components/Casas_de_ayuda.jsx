@@ -13,7 +13,7 @@ function Casas_de_ayuda () {
           </div>
        <div id="Contenido">
 
-      <div style={{backgroundImage:`url(${uno})`}}>
+      <div id="parrafo1" style={{backgroundImage:`url(${uno})`}}>
                <div class="parrafo1 slideRight">
             <h2> ¿Qué son las casa de ayuda? </h2>
              <p> son espacios de encuentro entre mujeres para el conocimiento de sus derechos y el desarrollo de procesos orientados al empoderamiento social y político. Son el espacio privilegiado para que la  Política Pública de Mujeres y Equidad de Género  llegue con presencia, acompañamiento y servicios a las mujeres diversas que habitan el territorio rural y urbano de Bogotá.</p>

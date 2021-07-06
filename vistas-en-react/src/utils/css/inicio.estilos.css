@@ -40,3 +40,27 @@ margin: 1%;
 
 
 
+@media screen and (min-width:421px) and (max-width:800px) {
+   
+    
+}
+@media screen and (min-width:375px) and (max-width:420px){
+
+   .titulo{
+font-size: 20px;
+margin: 0.5%;
+}
+.column2{
+
+    margin-top: 5%;
+}
+.padre_inicio img{
+	width: 115px;
+	height:160px;
+}
+.container
+{margin:5px;}
+.btn {
+	width:277px;height:50px;
+    }
+}
