@@ -1,16 +1,29 @@
-#Contenido_parrafos{
+#Contenidoparrafos{
 	margin: 4%;
+   background-color: white;
+}
+#Titulo_principal{
+	width: 100%;
 }
 .contenedor_carta {
 	height: 250px;
   width: 350px;
-  margin: auto;
+
+  align-items: center;
+  justify-content: center;
   -webkit-perspective: 700;
+}
+.sección2{
+	justify-content: center;
+ 	text-align: center;
+ 	align-items: center;
+ 	display: flex;
 }
 .contenedor_carta img{
 	width: 100%;
 	height: 100%;
-	border-radius: 47%;
+
+	
 }
  .carta{
  	height: 100%;
@@ -18,7 +31,19 @@
  	position: relative;
  	transform-style: preserve-3d;
  	transition: 2s;
-
+ 	text-align: center;
+ 	color: white;
+}
+.texto{
+ 	justify-content: center;
+ 	text-align: center;
+ 	align-items: center;
+    margin: 8%;
+    background-color: #F7EEE0;
+}
+.texto h2 {
+ 	font-size: 21px;
+ 	color: #FF5D5D;
 }
 .carta:hover {
 	transform: rotateY(180deg);
@@ -35,12 +60,39 @@
 	border-radius: 47%;
 	background-image: radial-gradient(circle at 50% 120.71%, #883f6f 0, #7a316e 12.5%, #69236d 25%, #54156b 37.5%, #37086a 50%, #000469 62.5%, #000268 75%, #000068 87.5%, #000067 100%);
 	transform: rotateY(180deg);
+	justify-content: center;
+ 	text-align: center;
+ 	align-items: center;
+ 	display: flex;
+    padding: 1%;
 	
 }
 #parrafo_1, #parrafo_2 , #parrafo_3{
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 35% 65%;
 	background-color: pink;
-	padding:5%;
     text-align: left;
+}
+.slideup{
+    animation-name: llegadabajo;
+    animation-duration: 5s;
+ }
+@keyframes llegadabajo {
+    0%{
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+    60%{
+        opacity: 0.6;
+       transform:translateY(-80px);
+    }
+    80%{
+        opacity: 0.8;
+        transform:translateY(15px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px);
+    }
+
 }
