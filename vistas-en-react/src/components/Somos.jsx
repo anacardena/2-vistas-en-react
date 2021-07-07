@@ -24,6 +24,8 @@ function Somos () {
                      que sufren distintos colectivos por razón de su <strong>sexo, raza, origen, religión </strong>, etc. El Comité para la Igualdad entre mujeres y hombres del Consejo de Europa define este concepto como las
                      "estrategias destinadas a establecer la igualdad de oportunidades por medio de medidas que permitan contrastar o corregir aquellas discriminaciones que son el resultado de prácticas o sistemas sociales".</p>
                     </div>
+                      {/*este es el div que contiene las cartas es decir, las imágenes con doble sentido*/}
+
                     <div className="sección2">
                   
                       <div className="contenedor_carta">
@@ -37,7 +39,7 @@ function Somos () {
                      </div>
                     </div>
                 </div>
-         
+                   {/*este es el div que contiene el parrafo 2*/}
                 <div id="parrafo_2">
                      <div className="sección2">
                      

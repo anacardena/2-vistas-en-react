@@ -1,39 +1,21 @@
+/*este es el contiene todos lo parrafos es decir, es un contenedor grande */
 #Contenidoparrafos{
 	margin: 4%;
    background-color: white;
 }
+/*estos son los estilos para la imagen principal*/
 #Titulo_principal{
 	width: 100%;
 }
-.contenedor_carta {
-	height: 250px;
-  width: 350px;
-
-  align-items: center;
-  justify-content: center;
-  -webkit-perspective: 700;
-}
+/*estos son los estilos para los textos de los párrafos */
 .sección2{
 	justify-content: center;
  	text-align: center;
  	align-items: center;
  	display: flex;
 }
-.contenedor_carta img{
-	width: 100%;
-	height: 100%;
 
-	
-}
- .carta{
- 	height: 100%;
- 	width: 100%;
- 	position: relative;
- 	transform-style: preserve-3d;
- 	transition: 2s;
- 	text-align: center;
- 	color: white;
-}
+ 
 .texto{
  	justify-content: center;
  	text-align: center;
@@ -44,6 +26,30 @@
 .texto h2 {
  	font-size: 21px;
  	color: #FF5D5D;
+}
+/*estos son los estilos para las imagenes y el efecto de ellas */
+.contenedor_carta {
+	height: 250px;
+  width: 350px;
+
+  align-items: center;
+  justify-content: center;
+  -webkit-perspective: 700;
+}
+.contenedor_carta img{
+	width: 100%;
+	height: 100%;
+
+	
+}
+.carta{
+ 	height: 100%;
+ 	width: 100%;
+ 	position: relative;
+ 	transform-style: preserve-3d;
+ 	transition: 2s;
+ 	text-align: center;
+ 	color: white;
 }
 .carta:hover {
 	transform: rotateY(180deg);
@@ -67,13 +73,16 @@
     padding: 1%;
 	
 }
+ /*estos son los contenedores de cada uno de los párrafos */
 #parrafo_1, #parrafo_2 , #parrafo_3{
 	display: grid;
 	grid-template-columns:60% 40% ;
 	background-color: pink;
     text-align: left;
 }
-.slideup{
+
+ /*esta es la animación*/
+ .slideup{
     animation-name: llegadabajo;
     animation-duration: 5s;
  }
@@ -96,7 +105,7 @@
     }
 
 }
-
+   /*estos son los responsivos*/
 @media screen and (min-width:421px) and (max-width:800px) {
 #parrafo_1, #parrafo_2 , #parrafo_3{
 	display: grid;

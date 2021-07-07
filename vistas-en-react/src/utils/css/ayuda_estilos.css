@@ -60,9 +60,10 @@
  	background-color: #FF5D5D;
  	padding:4%;
  }
+    /*estos son los estilos para los contenedores de los parrafos */
 #parrafo2{
 	display: flex;
-	width: 100%;
+	width: 94%;
 	justify-content: flex-end;
 	
 }
@@ -71,6 +72,7 @@
 	background-size: cover;
 	padding: 3%;
 }
+   /*estos son los estilos para el contenedor de tos los párrafos*/
 #Contenido{
 margin: 5%;
 }
@@ -129,6 +131,7 @@ margin: 5%;
     }
 
 }
+   /*estilos para los responsivos*/
 @media screen and (min-width:801px) and (max-width:1025px) {
 #Titulo_principal {
 	background-repeat: no-repeat;

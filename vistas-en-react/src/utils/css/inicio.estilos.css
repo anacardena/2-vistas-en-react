@@ -1,4 +1,4 @@
-
+/*estos son los estilos para el contenedor padre*/
 .padre_inicio{
     display: grid;
     width: 100%;
@@ -8,6 +8,7 @@
 
 }
 
+/*estos son los estilos para el contenedor de la segunda columna todo lo que tiene que ver con  la sección derecha*/
 
 .column2{
 	grid-template-rows: 50% 50%;
@@ -15,16 +16,21 @@
     align-items: center;
     margin-top: 10%;
 }
+/*estos son los estilos para el título de bienvenidos*/
+
 .titulo{
 font-size: 40px;
 color:violet;
 margin: 1%;
 }
+/*estos son los estilos para la imagen de logo*/
 
 .padre_inicio img{
 	width: 230px;
 	height:320px;
 }
+/*estos son los estilos para los botones*/
+
 .container
 {margin:10px;display: inline;position:relative;transform:translate(-50%,-50%)}
 .btn
@@ -38,29 +44,55 @@ margin: 1%;
 .btn:hover svg rect
 {stroke-width:4;stroke-dasharray:196,543;stroke-dashoffset:437}
 
+/*estos son los estilos para los responsivos*/
 
 
+@media screen and (min-width:801px) and (max-width:1025px) {
+	.padre_inicio{
+   display: grid;
+   grid-template-columns:  auto;
+
+}
+
+}
 @media screen and (min-width:421px) and (max-width:800px) {
-   
-    
+.padre_inicio{
+   display: grid;
+   grid-template-columns:  auto;
+
+}
+
 }
 @media screen and (min-width:375px) and (max-width:420px){
+	
+.padre_inicio{
+   display: grid;
+    height: 130vh;
+   grid-template-columns:  auto;
 
-   .titulo{
-font-size: 20px;
-margin: 0.5%;
 }
-.column2{
+}
+@media screen and (min-width:200px) and (max-width:374px){
+	.padre_inicio{
+   display: grid;
+    width: 130vw;
+    height: 130vh;
 
-    margin-top: 5%;
+   grid-template-columns:  auto;
+
+}
+ .column2{
+	grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
 }
 .padre_inicio img{
-	width: 115px;
-	height:160px;
+	width: 200px;
+	height:220px;
 }
+.btn
+{position:relative;display:block;width:150px;height:25px;line-height:60px;text-align:center;text-transform:uppercase;background-color:transparent;cursor:pointer;text-decoration:none;font-family:Roboto,sans-serif;font-weight:900;font-size:7px;letter-spacing:.045em}
 .container
-{margin:5px;}
-.btn {
-	width:277px;height:50px;
-    }
+{ margin:10px;display: inline;position:relative;transform:translate(-50%,-50%)}
 }

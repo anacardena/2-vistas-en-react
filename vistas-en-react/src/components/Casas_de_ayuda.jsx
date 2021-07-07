@@ -8,18 +8,19 @@ import titulo from '../utils/images/titulo.png'
 function Casas_de_ayuda () {
     return (
         <div id="Padre">
+           {/*este es el div que contiene la imagen principal y el título*/}
          <div style={{backgroundImage:`url(${titulo})`}} id="Titulo_principal">
        Casas de igualdad de oportunidades para las mujeres 
           </div>
        <div id="Contenido">
-
+                   {/*este es el div que contiene el parrafo 1*/}
       <div id="parrafo1" style={{backgroundImage:`url(${uno})`}}>
                <div class="parrafo1 slideRight">
             <h2> ¿Qué son las casa de ayuda? </h2>
              <p> son espacios de encuentro entre mujeres para el conocimiento de sus derechos y el desarrollo de procesos orientados al empoderamiento social y político. Son el espacio privilegiado para que la  Política Pública de Mujeres y Equidad de Género  llegue con presencia, acompañamiento y servicios a las mujeres diversas que habitan el territorio rural y urbano de Bogotá.</p>
                </div>
         </div>
-
+                  {/*este es el div que contiene el parrafo 2*/}
          <div id="parrafo2"  style={{backgroundImage:`url(${dos})`}}>
                 <div class="parrafo2 slideLeft">
                 <h2> ¿Cuáles son los Objetivos de las Casas de Igualdad de Oportunidades? </h2>
@@ -32,7 +33,7 @@ function Casas_de_ayuda () {
                </ul>
                </div>
          </div>
-
+                      {/*este es el div que contiene el parrafo 3*/}
           <div  id="parrafo3" style={{backgroundImage:`url(${tres})`}}>
                <div class="parrafo3  slideRight">
               <h2> ¿Qué encuentran las mujeres en las Casas de Igualdad de Oportunidades? </h2>
