@@ -12,13 +12,19 @@ function Somos () {
     <div id="contenedor_Padre">
 {/*este es el div que contiene tel título*/}
          <div style={{backgroundImage:`url(${titulo})`}} id="Titulo_principal">
-         <div className="slideup">¿Quiénes somos?</div> 
+         <div className="slideup">Nosotras</div> 
          </div>
        {/*este es el div que contiene los dos párrafos*/}   
        <div id="Contenidoparrafos">
         {/*este es el div que contiene el primer párrafo*/}
                 <div id="parrafo_1">
-                     <div className="sección2">
+                    <div className="texto">
+                     <h2> ¿Porqué acción positiva?</h2>
+                    <p> Este concepto surge  en Estados Unidos en la década de los 60 como parte de las estrategias puestas en marcha por los gobiernos para luchar contra las desigualdades, fundamentalmente de carácter laboral, 
+                     que sufren distintos colectivos por razón de su <strong>sexo, raza, origen, religión </strong>, etc. El Comité para la Igualdad entre mujeres y hombres del Consejo de Europa define este concepto como las
+                     "estrategias destinadas a establecer la igualdad de oportunidades por medio de medidas que permitan contrastar o corregir aquellas discriminaciones que son el resultado de prácticas o sistemas sociales".</p>
+                    </div>
+                    <div className="sección2">
                   
                       <div className="contenedor_carta">
                       <div className="carta">
@@ -30,24 +36,10 @@ function Somos () {
                      </div>
                      </div>
                     </div>
-                    <div className="texto">
-                     <h2> ¿Porqué acción positiva?</h2>
-                    <p> Este concepto surge  en Estados Unidos en la década de los 60 como parte de las estrategias puestas en marcha por los gobiernos para luchar contra las desigualdades, fundamentalmente de carácter laboral, 
-                     que sufren distintos colectivos por razón de su <strong>sexo, raza, origen, religión </strong>, etc. El Comité para la Igualdad entre mujeres y hombres del Consejo de Europa define este concepto como las
-                     "estrategias destinadas a establecer la igualdad de oportunidades por medio de medidas que permitan contrastar o corregir aquellas discriminaciones que son el resultado de prácticas o sistemas sociales".</p>
-                    </div>
                 </div>
          
                 <div id="parrafo_2">
-                
-                    <div className="texto">
-                     <h2> ¿Cuál es nuestro objetivo?</h2>
-                     ¿te ha pasado que buscas información a cerca de un tema en específico y aunque la información que encuentras es buena no sabes qué guardar?
-                     Pues bien, así le suceden a muchas mujeres con la información en la web pues al ser tanta no saben donde encontrar ayuda.
-                     La problemática en la que nos enfocamos es en la violencia contra la mujer, con el propósito de ayudar y brindar información que pueda ser de utilidad para las mujeres que estén pasando por este flagelo.
-                     El objetivo principal de esta página es contribuir con una causa social que al día de hoy no ha tenido el reconocimiento, el apoyo y masificación que necesita.
-                    </div>
-                      <div className="sección2">
+                     <div className="sección2">
                      
                       <div className="contenedor_carta">
                       <div className="carta">
@@ -58,21 +50,17 @@ function Somos () {
                      </div>
                      </div>
                     </div>
+                    <div className="texto">
+                     <h2> ¿Cuál es nuestro objetivo?</h2>
+                     ¿te ha pasado que buscas información a cerca de un tema en específico y aunque la información que encuentras es buena no sabes qué guardar?
+                     Pues bien, así le suceden a muchas mujeres con la información en la web pues al ser tanta no saben donde encontrar ayuda.
+                     La problemática en la que nos enfocamos es en la violencia contra la mujer, con el propósito de ayudar y brindar información que pueda ser de utilidad para las mujeres que estén pasando por este flagelo.
+                     El objetivo principal de esta página es contribuir con una causa social que al día de hoy no ha tenido el reconocimiento, el apoyo y masificación que necesita.
+                    </div>
+                      
                 </div>    
                 <div id="parrafo_3">
-                     <div className="sección2">
-                      
-                      <div className="contenedor_carta">
-                      <div className="carta">
-                      <div className="lado frente">
-                      <img   src={c} />  
-                      </div>
-                      <div className="lado atras">
-                      "Hagas lo que hagas, sé diferente. Ese fue el consejo que me dio mi madre y no puedo pensar en un mejor consejo para una emprendedora. Si eres diferente te destacarás."
-                      </div>
-                     </div>
-                     </div>
-                    </div>
+                     
                      <div className="texto">
                      <h2> Hablemos un poco de esta página</h2>
                      <p>  Nos centramos en desarrollar esta página web que ayude a solucionar la problemática anteriormente mencionada.
@@ -85,6 +73,19 @@ function Somos () {
                Se trata del color internacional del movimiento por la igualdad de derechos y el tono que las sufragistas estadounidenses adoptaron como uniforme en la marcha de Washinhton a favor de la Enmienda por la Igualdad de Derechos en 1978.
                 El violeta, color de los soberanos, simboliza la sangre real que corre por las venas de cada luchadora por el derecho al voto, simboliza su conciencia de la libertad y la dignidad.</p>
                    </div>
+                   <div className="sección2">
+                      
+                      <div className="contenedor_carta">
+                      <div className="carta">
+                      <div className="lado frente">
+                      <img   src={c} />  
+                      </div>
+                      <div className="lado atras">
+                      "Hagas lo que hagas, sé diferente. Ese fue el consejo que me dio mi madre y no puedo pensar en un mejor consejo para una emprendedora. Si eres diferente te destacarás."
+                      </div>
+                     </div>
+                     </div>
+                    </div>
                  </div>       
           </div>
 

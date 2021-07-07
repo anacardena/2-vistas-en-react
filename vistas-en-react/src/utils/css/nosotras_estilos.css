@@ -69,7 +69,7 @@
 }
 #parrafo_1, #parrafo_2 , #parrafo_3{
 	display: grid;
-	grid-template-columns: 35% 65%;
+	grid-template-columns:60% 40% ;
 	background-color: pink;
     text-align: left;
 }
@@ -95,4 +95,31 @@
         transform:translateY(0px);
     }
 
+}
+
+@media screen and (min-width:421px) and (max-width:800px) {
+#parrafo_1, #parrafo_2 , #parrafo_3{
+	display: grid;
+	grid-template-columns: auto; ;
+	background-color: pink;
+    
+}
+}
+@media screen and (min-width:375px) and (max-width:420px){
+	
+#parrafo_1, #parrafo_2 , #parrafo_3{
+	display: grid;
+	grid-template-columns: auto; ;
+	background-color: pink;
+    
+}
+}
+@media screen and (min-width:200px) and (max-width:374px){
+	
+#parrafo_1, #parrafo_2 , #parrafo_3{
+	display: grid;
+	grid-template-columns: auto; ;
+	background-color: pink;
+    
+}
 }

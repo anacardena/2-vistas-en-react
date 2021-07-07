@@ -12,7 +12,6 @@
 }
 /* estilos para el conntenedor padre de toda la página*/
 #Padre{
-	color:#FAE4CD;
 	background: #FCF1E4;
 }
 /* estilos para el título*/
@@ -28,6 +27,8 @@
 }
 /* estilos para los párrafos*/
  .parrafo2, .parrafo3 {
+ 	display: flex;
+ 	flex-direction: column; 
 	width: 600px;
 	height: 450px;
 	justify-content: center;
@@ -37,11 +38,35 @@
 	width: 500px;
 	height: 300px;
 	padding:4%;
-}
+    justify-content: center;
+	text-align: center;
+	background-color: #F7EEE0; }
+
+.parrafo1 h2 {
+		color:#FF5D5D; 
+	}
+ .parrafo2 {
+ 	background-color: #5a2bd1;
+ 	color:#F7EEE0; 
+ 	padding:4%;
+ }
+ .parrafo2 h2 {
+ 	color: white;
+ }
+ .parrafo3 h2 {
+ 	color: white;
+ }
+ .parrafo3{
+ 	background-color: #FF5D5D;
+ 	padding:4%;
+ }
 #parrafo2{
-	align-items :right;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	
 }
-#parrafo2, #parrafo3{
+#parrafo1, #parrafo2, #parrafo3{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 3%;
@@ -106,7 +131,8 @@ margin: 5%;
 }
 @media screen and (min-width:801px) and (max-width:1025px) {
 #Titulo_principal {
-	
+	background-repeat: no-repeat;
+	background-size: cover;
   height: 20vh;
 
 }
@@ -114,8 +140,8 @@ margin: 5%;
 @media screen and (min-width:421px) and (max-width:800px) {
 #Titulo_principal {
 	font-size:16px;
-	 height: 30vh;
-	  width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .parrafo1, .parrafo2, .parrafo3 {
 	width: 300px;
@@ -133,8 +159,8 @@ margin: 5%;
 @media screen and (min-width:375px) and (max-width:420px){
 	#Titulo_principal {
 	font-size: 16px;
-	 height: 30vh;
-	  width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
  .parrafo1, .parrafo2, .parrafo3 {
 	width: 300px;
@@ -146,8 +172,8 @@ margin: 5%;
 @media screen and (min-width:200px) and (max-width:374px){
 	#Titulo_principal {
 	font-size: 16px;
-	 height: 30vh;
-	  width: 100%;
+	 background-repeat: no-repeat;
+	background-size: cover;
 }
  .parrafo1, .parrafo2, .parrafo3 {
 	width: 320px;
