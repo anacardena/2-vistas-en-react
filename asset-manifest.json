@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/2-vistas-en-react/static/css/main.8db5d2bc.chunk.css",
+    "main.js": "/2-vistas-en-react/static/js/main.e343cc5e.chunk.js",
+    "main.js.map": "/2-vistas-en-react/static/js/main.e343cc5e.chunk.js.map",
+    "runtime-main.js": "/2-vistas-en-react/static/js/runtime-main.6cf5e6c1.js",
+    "runtime-main.js.map": "/2-vistas-en-react/static/js/runtime-main.6cf5e6c1.js.map",
+    "static/js/2.f8480d12.chunk.js": "/2-vistas-en-react/static/js/2.f8480d12.chunk.js",
+    "static/js/2.f8480d12.chunk.js.map": "/2-vistas-en-react/static/js/2.f8480d12.chunk.js.map",
+    "static/js/3.270d1da6.chunk.js": "/2-vistas-en-react/static/js/3.270d1da6.chunk.js",
+    "static/js/3.270d1da6.chunk.js.map": "/2-vistas-en-react/static/js/3.270d1da6.chunk.js.map",
+    "index.html": "/2-vistas-en-react/index.html",
+    "static/css/main.8db5d2bc.chunk.css.map": "/2-vistas-en-react/static/css/main.8db5d2bc.chunk.css.map",
+    "static/js/2.f8480d12.chunk.js.LICENSE.txt": "/2-vistas-en-react/static/js/2.f8480d12.chunk.js.LICENSE.txt",
+    "static/media/Science - 591.80e2781c.mp4": "/2-vistas-en-react/static/media/Science - 591.80e2781c.mp4",
+    "static/media/localidad.175b5bf6.png": "/2-vistas-en-react/static/media/localidad.175b5bf6.png",
+    "static/media/logo.6ce24c58.svg": "/2-vistas-en-react/static/media/logo.6ce24c58.svg",
+    "static/media/logo.f56e9022.jpeg": "/2-vistas-en-react/static/media/logo.f56e9022.jpeg",
+    "static/media/parrafo1.0.3c18434c.jpg": "/2-vistas-en-react/static/media/parrafo1.0.3c18434c.jpg",
+    "static/media/parrafo2.0.4065ed9b.jpg": "/2-vistas-en-react/static/media/parrafo2.0.4065ed9b.jpg",
+    "static/media/parrafo2.1dc86d5a.jpg": "/2-vistas-en-react/static/media/parrafo2.1dc86d5a.jpg",
+    "static/media/parrafo3.0.3aa7d79f.jpg": "/2-vistas-en-react/static/media/parrafo3.0.3aa7d79f.jpg",
+    "static/media/parrafo3.a0a610a9.jpg": "/2-vistas-en-react/static/media/parrafo3.a0a610a9.jpg",
+    "static/media/titulo.426db174.png": "/2-vistas-en-react/static/media/titulo.426db174.png",
+    "static/media/titulo_nosotras.026087b0.png": "/2-vistas-en-react/static/media/titulo_nosotras.026087b0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6cf5e6c1.js",
+    "static/js/2.f8480d12.chunk.js",
+    "static/css/main.8db5d2bc.chunk.css",
+    "static/js/main.e343cc5e.chunk.js"
+  ]
+}
