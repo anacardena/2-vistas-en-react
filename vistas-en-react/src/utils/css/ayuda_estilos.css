@@ -13,6 +13,7 @@
 /* estilos para el conntenedor padre de toda la página*/
 #Padre{
 	background: #FCF1E4;
+	font-family: 'Poppins', sans-serif;
 }
 /* estilos para el título*/
 #Titulo_principal {

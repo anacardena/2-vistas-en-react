@@ -2,10 +2,12 @@
 #Contenidoparrafos{
 	margin: 4%;
    background-color: white;
+   font-family: 'Poppins', sans-serif;
 }
 /*estos son los estilos para la imagen principal*/
 #Titulo_principal{
 	width: 100%;
+	font-family: 'Poppins', sans-serif;
 }
 /*estos son los estilos para los textos de los párrafos */
 .sección2{
@@ -22,6 +24,7 @@
  	align-items: center;
     margin: 8%;
     background-color: #F7EEE0;
+    font-family: 'Poppins', sans-serif;
 }
 .texto h2 {
  	font-size: 21px;
@@ -31,7 +34,7 @@
 .contenedor_carta {
 	height: 250px;
   width: 350px;
-
+   font-family: 'Poppins', sans-serif;
   align-items: center;
   justify-content: center;
   -webkit-perspective: 700;
@@ -71,7 +74,7 @@
  	align-items: center;
  	display: flex;
     padding: 1%;
-	
+	font-family: 'Poppins', sans-serif;
 }
  /*estos son los contenedores de cada uno de los párrafos */
 #parrafo_1, #parrafo_2 , #parrafo_3{
@@ -79,6 +82,7 @@
 	grid-template-columns:60% 40% ;
 	background-color: pink;
     text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
 
  /*esta es la animación*/

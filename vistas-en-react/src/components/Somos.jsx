@@ -42,7 +42,7 @@ function Somos () {
                    {/*este es el div que contiene el parrafo 2*/}
                 <div id="parrafo_2">
                      <div className="sección2">
-                     
+                        {/*este es el div que contiene la segunda imagen*/}
                       <div className="contenedor_carta">
                       <div className="carta">
                       <div className="lado frente">
@@ -61,6 +61,7 @@ function Somos () {
                     </div>
                       
                 </div>    
+                   {/*este es el div que contiene el parrafo 3*/}
                 <div id="parrafo_3">
                      
                      <div className="texto">
@@ -76,7 +77,7 @@ function Somos () {
                 El violeta, color de los soberanos, simboliza la sangre real que corre por las venas de cada luchadora por el derecho al voto, simboliza su conciencia de la libertad y la dignidad.</p>
                    </div>
                    <div className="sección2">
-                      
+                         {/*este es el div que contiene la tercera imagen*/}
                       <div className="contenedor_carta">
                       <div className="carta">
                       <div className="lado frente">
